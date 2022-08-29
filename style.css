@@ -1,5 +1,3 @@
-@import "/page/page1.css";
-@import "/page/page2.css";
 body {
   display: grid;
   grid-template-columns: repeat(2, 280px);
