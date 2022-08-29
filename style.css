@@ -11,6 +11,7 @@ body {
   height: 630px;
   background-color: black;
   color: white;
+  border-radius: 30px;
 }
 
 .top_icons {
