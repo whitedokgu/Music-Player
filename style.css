@@ -1,0 +1,22 @@
+@import "/page/page1.css";
+@import "/page/page2.css";
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  place-content: center;
+  gap: 80px;
+  margin: 50px 60px;
+}
+#page_1,
+#page_2 {
+  width: 280px;
+  height: 630px;
+  background-color: black;
+  color: white;
+}
+
+.top_icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px 0px 20px;
+}
